@@ -1,0 +1,17 @@
+# Poids et fichiers téléchargés automatiquement par le notebook
+*.weights
+*.cfg
+coco.names
+*.avi
+*.mp4
+*.jpg
+!images/*.jpg
+
+# Jeu de données (téléchargé via kagglehub)
+data/
+alien-vs-predator*/
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
